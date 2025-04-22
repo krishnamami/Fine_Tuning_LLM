@@ -1,7 +1,8 @@
 
+  # Fine-Tuning Large Language Models (LLMs) with QLoRA on SageMaker
 
 # Project Overview
-This project focuses on fine-tuning a foundational large language model (LLM) using efficient and scalable methods. 
+This repository demonstrates how to fine-tune open-source Large Language Models (LLMs) using QLoRA (Quantized Low-Rank Adapter) for efficient and cost-effective training. The fine-tuned model is optimized for deployment using Text Generation Inference (TGI) on Amazon SageMaker.
 
 ## Popular Fine-Tuning Techniques
 To adapt large language models (LLMs) for specific downstream tasks efficiently, two widely adopted parameter-efficient fine-tuning techniques are used:
