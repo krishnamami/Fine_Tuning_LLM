@@ -42,9 +42,15 @@ To adapt large language models (LLMs) for specific downstream tasks efficiently,
 
 Project Structure
 Fine_Tuning_LLM/
-│
+
+
 ├── qlora.py                 # Main training script (QLoRA + PEFT)
+
 ├── requirements_local.txt   # SageMaker packages
+
 ├── requirements.txt         # Required packages for local or SageMaker execution
+
 ├── gemma.ipynb              # Script to train and evalaute the model
+
+
 └── README.md                # Project documentation
