@@ -2,7 +2,7 @@
   # Fine-Tuning Large Language Models (LLMs) with QLoRA on SageMaker
 
 # Project Overview
-This repository demonstrates how to fine-tune open-source Large Language Models (LLMs) using QLoRA (Quantized Low-Rank Adapter) for efficient and cost-effective training. The fine-tuned model is optimized for deployment using Text Generation Inference (TGI) on Amazon SageMaker.
+This repository demonstrates how to fine-tune open-source Large Language Models (LLMs) using QLoRA (Quantized Low-Rank Adapter) for efficient and cost-effective training. 
 
 ## Popular Fine-Tuning Techniques
 To adapt large language models (LLMs) for specific downstream tasks efficiently, two widely adopted parameter-efficient fine-tuning techniques are used:
@@ -24,7 +24,7 @@ To adapt large language models (LLMs) for specific downstream tasks efficiently,
 
 * Task:
 
-  A task-specific dataset[gretelai/synthetic_text_to_sql](https://huggingface.co/datasets/gretelai/synthetic_text_to_sql) from Higging Face is curated and preprocessed to 
+  A task-specific dataset[gretelai/synthetic_text_to_sql](https://huggingface.co/datasets/gretelai/synthetic_text_to_sql) from Hugging Face is curated and preprocessed to 
   enable effective supervised fine-tuning of the LLM.
 
 * Foundational Model:
@@ -40,7 +40,7 @@ To adapt large language models (LLMs) for specific downstream tasks efficiently,
    The fine-tuned model's outputs are evaluated to assess its performance on the target tasks. This involves both quantitative metrics and qualitative analysis to ensure 
    alignment with project goals.
 
-Project Structure
+Project Structure:
 Fine_Tuning_LLM/
 
 
@@ -50,7 +50,7 @@ Fine_Tuning_LLM/
 
 ├── requirements.txt         # Required packages for local or SageMaker execution
 
-├── gemma.ipynb              # Script to train and evalaute the model
+├── gemma.ipynb              # Script to train and evaluate the model
 
 
 └── README.md                # Project documentation
