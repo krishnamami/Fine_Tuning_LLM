@@ -2,7 +2,10 @@
   # Fine-Tuning Large Language Models (LLMs) with QLoRA on SageMaker
 
 # Project Overview
-This repository demonstrates how to fine-tune open-source Large Language Models (LLMs) using QLoRA (Quantized Low-Rank Adapter) for efficient and cost-effective training. 
+This project demonstrates **fine-tuning Large Language Models (LLMs)** using QLoRA (Quantized Low-Rank Adaptation) . It is optimized for enterprise-scale scenarios with limited compute, leveraging 4-bit quantization and adapter-based training.
+
+#Business Context
+As businesses look to integrate Generative AI into workflows, efficient fine-tuning of open-source foundation models becomes critical. This project was part of nitiative to evaluate scalable and cost-effective fine-tuning approaches for **custom in-domain LLMs**.
 
 ## Popular Fine-Tuning Techniques
 To adapt large language models (LLMs) for specific downstream tasks efficiently, two widely adopted parameter-efficient fine-tuning techniques are used:
@@ -54,3 +57,18 @@ Fine_Tuning_LLM/
 
 
 └── README.md                # Project documentation
+
+* References:
+
+PEFT (Parameter Efficient Fine Tuning)
+
+## Related Projects
+
+[Distributed ML SageMaker Pipeline](https://github.com/krishnamami/Distributed_ML_Sagemaker_Pipelines)
+
+Krishna Goud
+Head of Data Engineering & MLOps | Rocket LA [LinkedIn](https://www.linkedin.com/in/krishnagoud)
+
+Delivering $4B+ business impact through real-time AI pipelines and scalable GenAI foundations
+
+
