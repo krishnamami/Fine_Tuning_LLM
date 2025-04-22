@@ -23,15 +23,18 @@ To adapt large language models (LLMs) for specific downstream tasks efficiently,
 
 * Task:
 
-  A task-specific dataset[gretelai/synthetic_text_to_sql](https://huggingface.co/datasets/gretelai/synthetic_text_to_sql) from Higging Face is curated and preprocessed to enable effective supervised fine-tuning of the LLM.
+  A task-specific dataset[gretelai/synthetic_text_to_sql](https://huggingface.co/datasets/gretelai/synthetic_text_to_sql) from Higging Face is curated and preprocessed to 
+  enable effective supervised fine-tuning of the LLM.
 
 * Foundational Model:
 
-A pre-trained foundation model [gemma-2b-it](https://huggingface.co/google/gemma-2b-it) is selected from the Hugging Face model hub to serve as the starting point for fine-tuning.
+   A pre-trained foundation model [gemma-2b-it](https://huggingface.co/google/gemma-2b-it) is selected from the Hugging Face model hub to serve as the starting point for 
+ fine- tuning.
 
 * Fine-Tuning with Hugging Face Libraries:
    * Quantization: Applied to reduce the memory footprint.
    * QLoRA (Quantized Low-Rank Adaptation): Used to enable memory-efficient supervised fine-tuning by injecting trainable LoRA weights into the base model.
 * Model Evaluation :
 
-The fine-tuned model's outputs are evaluated to assess its performance on the target tasks. This involves both quantitative metrics and qualitative analysis to ensure alignment with project goals.
+   The fine-tuned model's outputs are evaluated to assess its performance on the target tasks. This involves both quantitative metrics and qualitative analysis to ensure 
+   alignment with project goals.
