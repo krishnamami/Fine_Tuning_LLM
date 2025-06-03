@@ -71,4 +71,4 @@ Head of Data Engineering & MLOps | Rocket LA [LinkedIn](https://www.linkedin.com
 
 Delivering $4B+ business impact through real-time AI pipelines and scalable GenAI foundations
 
-
+#GenAI#FineTuning#MultiAgent#AgenticArchitecture#Strategy#Leadership
